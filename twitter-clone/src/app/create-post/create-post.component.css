@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+#create-post-wrapper{
+    width: 50%;
+    background-color: black;
+    height: 20%;
+    float: left;
+    font-family: sans-serif;
+    padding: 0px 20px 10px 20px;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+#profile-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+#post-section{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#post-area{
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    outline: solid 1px green;
+    padding: 10px;
+}
+#tweet-btn{
+    background-color: green;
+    width: 30%;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 25px;
+}

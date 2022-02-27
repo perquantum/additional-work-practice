@@ -1,0 +1,8 @@
+<div id="create-post-wrapper">
+    <h1 style="color:white">Home</h1>
+    <div id="post-section">
+        <img id="profile-pic" src="https://st.depositphotos.com/1006706/2671/i/600/depositphotos_26715369-stock-photo-which-way-to-choose-3d.jpg">
+        <input (ngModel)="postContent" type="text" placeholder="What's happening?" id="post-area">
+    </div>
+    <button (click)="giveFlagForPost(postContent)" id="tweet-btn">Tweet</button>
+</div>

@@ -1,0 +1,11 @@
+<div id="search-section-wrapper">
+    <h3 style="color: white;">Profiles to follow</h3>
+
+
+
+    <div *ngFor="let profile of profiles" class="profiles">
+        <span style="color: white;">{{profile.name}}</span>
+        <button (click)="followFunction(profile.id)" class="follow-btn">{{profile.followStatus}}</button>
+    </div>
+
+</div>

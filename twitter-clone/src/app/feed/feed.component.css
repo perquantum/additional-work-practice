@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+#feed{
+    margin-left: 25%;
+    width: 50%;
+    background-color: black;
+    padding: 30px;
+}
+#feed-title{
+    text-align: center;
+}
+.newFeed{
+    width: 100%;
+    color: white;
+    padding: 10px;
+}

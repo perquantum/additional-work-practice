@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#search-section-wrapper{
+    width: 25%;
+    background-color: black;
+    float: right;
+    border: 1px solid white;
+    padding: 10px;
+}
+.profiles{
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.follow-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
